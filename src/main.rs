@@ -176,7 +176,7 @@ fn main() {
     if debug_mode {
         println!("   {} Extracted {} function signatures", "→".bright_black(), all_library_functions.len());
         for sig in &all_library_functions {
-            println!("      {} {}({}) -> {}", "→".bright_black(), sig.name, 
+            println!("      {} {}({}) -> {}", "-->>".bright_black(), sig.name, 
                 sig.parameters.iter().map(|(n, t)| format!("{}: {}", n, t)).collect::<Vec<_>>().join(", "),
                 sig.return_type);
         }
@@ -275,4 +275,5 @@ fn main() {
             std::process::exit(1);
         }
     }
+
 }
