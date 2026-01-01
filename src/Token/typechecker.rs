@@ -1,3 +1,4 @@
+// welcome developer who reading the compiler, this script currently disable.
 use crate::import::*;
 use std::collections::HashMap;
 
@@ -1276,3 +1277,4 @@ impl TypeChecker {
         }
     }
 }
+
