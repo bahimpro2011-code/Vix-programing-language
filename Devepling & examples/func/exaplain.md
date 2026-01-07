@@ -2,7 +2,7 @@
 
 ## What is a Function?
 
-A function is like a recipe inside your program—a named block of code that performs a specific task. Instead of writing the same logic repeatedly, you write it once, give it a name, and then "call" it by that name whenever you need it.
+A function is like a recipe inside your program a named block of code that performs a specific task. Instead of writing the same logic repeatedly, you write it once, give it a name, and then "call" it by that name whenever you need it.
 
 ## Function Types
 
@@ -285,3 +285,4 @@ example(10)  # Error: Unknown function
 - Specify return types to ensure type safety
 - Use `public` keyword to share functions across files
 - Leverage `Result` and `Option` types for robust error handling
+
