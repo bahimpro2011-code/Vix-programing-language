@@ -5,9 +5,6 @@ In this update a big bugs found in 2.5v version and this update fix all bugs:
     ```ruby
         i: (int32 | str)[] = [40, 30, "Hello world"]
     ```
-    - Fixed now after creating the right parser code so now it generate "Union":
-    ```rust
-    ```
 - Bug fixed: Before when you do:
     ```ruby
         func red(input: str): str
@@ -37,4 +34,5 @@ In this update a big bugs found in 2.5v version and this update fix all bugs:
             String var_i = t0;
             int32_t t1 = red(t0)
         }
+
     ```
