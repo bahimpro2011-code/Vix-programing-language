@@ -34,8 +34,6 @@ Vix in a memory safety language. Use [immutable variables](https://en.wikipedia.
     i: Option[int32] = None
     // Some function use when you add "Option" type and not a None. Example:
     x: Option[int32] = Some(30)
-    // Result function can be used if you want to expect the correct result:
-    x: Result[int32, str] = [100, "Hello world"]
 ```
 - Thoes functions can be used in a function too example:
 ```ruby
