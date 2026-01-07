@@ -545,8 +545,8 @@ end
 result: Result[int, str] = get_value()
 
 match result do
-    Ok(value) -> print("Success: ", value)
-    Err(error) -> print("Error: ", error)
+    Ok(value) do print("Success: ", value),
+    Err(error) do print("Error: ", error),
 end
 ```
 
